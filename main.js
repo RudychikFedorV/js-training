@@ -1,9 +1,50 @@
-const myName = "Fedir";
-const myCity = "Zmiev";
 
-const myFn = `My name is ${myName}. I live in the city ${myCity}.`;
-console,console.log(myFn);
 
+
+
+
+
+
+const newPost = (post, addedAt = Date()) => ({
+  ...post,
+  addedAt,
+});
+const firstPost = {
+  id: 1,
+  author: "RFV",
+};
+console.log(newPost(firstPost));
+// {id: 1, author: 'RFV', addedAt: 'Sat Dec 23 2023 21:41:17 GMT+0200 (Восточная Европа, стандартное время)'}
+
+
+// const myFn = (a, b) => {
+//   let c;
+//   a = a + 1;
+//   c = a + b;
+//   return c;
+// };
+// console.log(myFn(5, 3));
+
+// const multByFactor = function (a, b) {
+//   let c;
+//   a = a + 1;
+//   c = a + b;
+//   return c;
+// };
+// console.log(multByFactor(5, 2));
+
+// function multByFactor(value, multiplier = 1) {
+//   return value * multiplier;
+// }
+// ;
+// console.log(multByFactor(5));
+// console.log(multByFactor(10, 2));
+
+
+// const myName = "Fedir";
+// const myCity = "Zmiev";
+// const myFn = `My name is ${myName}. I live in the city ${myCity}.`;
+// console.log(myFn);
 
 // function myFn(a, b) {
 //   let c;
@@ -13,7 +54,6 @@ console,console.log(myFn);
 // }
 // console.dir(myFn);
 
-
 // const myCity = {
 //   city: "New York",
 //   cityGreeting() {
@@ -22,13 +62,11 @@ console,console.log(myFn);
 // }
 // myCity.cityGreeting()
 
-
 // const myCity = {
 //   city: "New York",
 // };
 // myCity.city = 'Las Vegas'
 // console.log(myCity)
-
 
 // const myCity = {
 //     city: 'New York'
@@ -36,7 +74,6 @@ console,console.log(myFn);
 // myCity.popular = true
 // myCity.country = 'USA'
 // console.log(myCity)
-
 
 // let a = 10
 // console.log(a)
@@ -46,7 +83,6 @@ console,console.log(myFn);
 // console.log(a)
 // a = undefined
 // console.log(a)
-
 
 // const objectA = {
 //     a: 10,
