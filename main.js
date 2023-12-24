@@ -2,20 +2,57 @@
 
 
 
-
-
-
-const newPost = (post, addedAt = Date()) => ({
-  ...post,
-  addedAt,
+const myArray = [1, 2, 3];
+console.log(myArray);
+// const newArray = myArray.map((el) => {
+//   return el * 3;
+// });
+const newArray = myArray.map(function(el) {
+  return el * 3;
 });
-const firstPost = {
-  id: 1,
-  author: "RFV",
-};
-console.log(newPost(firstPost));
-// {id: 1, author: 'RFV', addedAt: 'Sat Dec 23 2023 21:41:17 GMT+0200 (Восточная Европа, стандартное время)'}
+console.log(newArray);
+console.log(myArray);
 
+// const myArray = [1, 2, 3];
+// console.log(myArray);
+// const newArray = myArray.map((el) => el * 3);
+// console.log(newArray);
+// console.log(myArray);
+
+// const myArray = [1, 2, 3];
+// console.log(myArray);
+// const res =  myArray.forEach((el) => console.log(el * 2));
+// console.log(res);
+// console.log(myArray);
+
+// const myArray = [1, true, "RFV"];
+// console.log(myArray);
+// console.log(myArray[0]);
+// console.log(myArray[1]);
+// console.log(myArray[2]);
+// console.log(myArray.length);
+
+// const fnWithError = () => {
+//   throw new Error("Some error");
+// };
+// try {
+//   fnWithError();
+// } catch (error) {
+//   console.error(error);
+//   console.log(error.message);
+// }
+// console.log("Continue...");
+
+// const newPost = (post, addedAt = Date()) => ({
+//   ...post,
+//   addedAt,
+// });
+// const firstPost = {
+//   id: 1,
+//   author: "RFV",
+// };
+// console.table(newPost(firstPost));
+// {id: 1, author: 'RFV', addedAt: 'Sat Dec 23 2023 21:41:17 GMT+0200 (Восточная Европа, стандартное время)'}
 
 // const myFn = (a, b) => {
 //   let c;
@@ -39,7 +76,6 @@ console.log(newPost(firstPost));
 // ;
 // console.log(multByFactor(5));
 // console.log(multByFactor(10, 2));
-
 
 // const myName = "Fedir";
 // const myCity = "Zmiev";
