@@ -1,17 +1,46 @@
+const age = 25;
+if (age >= 18) {
+  console.log("Is adult");
+}
+if (age >= 12 && age < 18) {
+  console.log("Is teenager");
+}
+if (age < 12) {
+  console.log("Is child");
+}
 
+// const age = 25;
+// if (age > 18) {
+//   console.log("Is adult");
+// } else if (age >= 12) {
+//   console.log("Is teenager");
+// } else {
+//   console.log("Is child");
+// }
 
+// const userProfile = {
+//   name: "RFV",
+//   commentsQty: 23,
+//   hasSignedAgreement: false,
+// };
+// const userInfo = ({ name, commentsQty }) => {
+//   if (!commentsQty) {
+//     return `User ${name} has no comments`;
+//   }
+//   return `User ${name} has ${commentsQty} comments`;
+// };
+// console.log(userInfo(userProfile));
 
-
-const myArray = [1, 2, 3];
-console.log(myArray);
-// const newArray = myArray.map((el) => {
+// const myArray = [1, 2, 3];
+// console.log(myArray);
+// // const newArray = myArray.map((el) => {
+// //   return el * 3;
+// // });
+// const newArray = myArray.map(function(el) {
 //   return el * 3;
 // });
-const newArray = myArray.map(function(el) {
-  return el * 3;
-});
-console.log(newArray);
-console.log(myArray);
+// console.log(newArray);
+// console.log(myArray);
 
 // const myArray = [1, 2, 3];
 // console.log(myArray);
