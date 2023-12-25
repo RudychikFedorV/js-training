@@ -1,13 +1,35 @@
-const age = 25;
-if (age >= 18) {
-  console.log("Is adult");
-}
-if (age >= 12 && age < 18) {
-  console.log("Is teenager");
-}
-if (age < 12) {
-  console.log("Is child");
-}
+
+
+
+
+
+
+// let i = 10;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i < 5);
+
+// for (let i = 0; i < 5; i++) {
+//   console.log(i)
+// }
+
+// let i = 0;
+// while (i < 5) {
+//   console.log(i);
+//   i++;
+// }
+
+// const age = 25;
+// if (age >= 18) {
+//   console.log("Is adult");
+// }
+// if (age >= 12 && age < 18) {
+//   console.log("Is teenager");
+// }
+// if (age < 12) {
+//   console.log("Is child");
+// }
 
 // const age = 25;
 // if (age > 18) {
